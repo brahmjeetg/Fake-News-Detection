@@ -32,8 +32,8 @@ from jupyterthemes import jtplot
 
 jtplot.style(theme='monokai', context='notebook', ticks=True, grid=False)
 
-df_true = pd.read_csv('/content/drive/My Drive/Colab Dataset/True.csv')
-df_fake = pd.read_csv('/content/drive/My Drive/Colab Dataset/Fake.csv')
+df_true = pd.read_csv('https://drive.google.com/file/d/160veYu_SVKmRauKe9BISgLX8sgv7coGM/view?usp=sharing')
+df_fake = pd.read_csv('https://drive.google.com/file/d/1FoZb3WXPueIc20fIErh26ub17j5tdrTa/view?usp=sharing')
 
 df_true.isnull().sum()
 
